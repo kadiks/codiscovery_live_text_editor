@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8" />
+        <title>Text Editor</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Material+Icons&display=swap" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <div class="toolbar">
+            <div>
+                <div class="alignments">
+                    <button class="btn-text-left">
+                        <span class="material-icons">
+                            format_align_left
+                        </span>
+                    </button>
+                    <button class="btn-text-center">
+                        <span class="material-icons">
+                            format_align_center
+                        </span>
+                    </button>
+                    <button class="btn-text-right">
+                        <span class="material-icons">
+                        format_align_right
+                        </span>
+                    </button>
+                </div>
+                <div class="colors">
+                    <div class="color color-red" data-color="red"></div>
+                    <div class="color color-blue" data-color="blue"></div>
+                    <div class="color color-green" data-color="green"></div>
+                    <div class="color color-black" data-color="black"></div>
+                </div>
+            </div>
+            <div>
+                <div class="fonts">
+                    <select>
+                        <option></option>
+                        <option value="Lato">Lato</option>
+                        <option value="Merriweather">Merriweather</option>
+                        <option value="Open Sans">Open Sans</option>
+                    </select>
+                </div>
+                <div class="font-decoration">
+                    <button class="btn-bold">
+                        <span class="material-icons">
+                            format_bold
+                        </span>
+                    </button>
+                    <button class="btn-italic">
+                        <span class="material-icons">
+                            format_italic
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div><!-- /.toolbar -->
+
+        <div
+            class="text-editor" contenteditable="">
+            Hello la room twitch/youtube
+        </div>
+
+
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

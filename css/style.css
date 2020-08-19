@@ -1,0 +1,57 @@
+.toolbar {
+    margin-bottom: 15px;
+}
+
+.material-icons {
+    font-size: 14px;
+}
+
+.text-editor {
+    border: 1px #CCC solid;
+    border-radius: 3px;
+    min-height: 150px;
+}
+
+.colors, .alignments {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fonts, .font-decoration {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.toolbar > div {
+    margin-bottom: 15px;
+}
+
+
+.color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.color-black {
+    background-color: black;
+}
+.color-blue {
+    background-color: blue;
+}
+.color-red {
+    background-color: red;
+}
+.color-green {
+    background-color: green;
+}
+
+.font-decoration button.disabled {
+    border-color: transparent;
+    color: #AAA;
+}
+.font-decoration button:focus {
+    outline-color: transparent;
+    user-select: none;
+}
